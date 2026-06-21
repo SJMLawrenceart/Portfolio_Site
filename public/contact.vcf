@@ -1,0 +1,30 @@
+
+BEGIN:VCARD
+VERSION:4.0
+
+
+N:Lawrence;Skyler;;;
+FN:Skyler Lawrence
+
+
+TEL;TYPE=WORK,VOICE:1-708-921-5008
+
+
+EMAIL;TYPE=INTERNET,PREF:skylerjmlawrence@gmail.com
+
+
+EMAIL;TYPE=INTERNET,WORK:
+
+
+PHOTO;TYPE=JPG;VALUE=URI:http://localhost:1313/img/TechChat.png
+
+
+ORG:Current Company LTD
+
+
+TITLE:
+
+
+URL:http://localhost:1313/
+
+END:VCARD
