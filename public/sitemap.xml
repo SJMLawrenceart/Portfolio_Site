@@ -2,31 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://sjmlawrencegames.com/publications/</loc>
+    <loc>http://localhost:1313/publications/</loc>
     <lastmod>2020-01-07T16:47:30+00:00</lastmod>
     <priority>0.6</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/projects/creations/</loc>
+    <loc>http://localhost:1313/projects/creations/</loc>
     <lastmod>2020-01-07T15:00:28+00:00</lastmod>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/projects/contributions/</loc>
+    <loc>http://localhost:1313/projects/contributions/</loc>
     <lastmod>2020-01-07T16:49:15+00:00</lastmod>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/projects/</loc>
+    <loc>http://localhost:1313/projects/</loc>
     <lastmod>2020-01-07T16:49:15+00:00</lastmod>
     <priority>0.9</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2018-02-10T18:56:13-05:00</lastmod>
     <priority>1</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/contact/</loc>
+    <loc>http://localhost:1313/contact/</loc>
   </url><url>
-    <loc>https://sjmlawrencegames.com/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
     <priority>0.1</priority>
   </url><url>
-    <loc>https://sjmlawrencegames.com/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

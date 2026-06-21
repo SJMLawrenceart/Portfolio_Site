@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Games &amp; Prototypes on Skyler Lawrence</title>
-    <link>https://sjmlawrencegames.com/projects/creations/</link>
+    <link>http://localhost:1313/projects/creations/</link>
     <description>Recent content in Games &amp; Prototypes on Skyler Lawrence</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate></lastBuildDate>
-    <atom:link href="https://sjmlawrencegames.com/projects/creations/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/creations/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
