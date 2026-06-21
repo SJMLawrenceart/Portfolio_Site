@@ -1,80 +1,47 @@
-title = "Skyler Lawrence"
-baseURL = "https://sjmlawrencegames.com"
 theme = "hugo-resume"
 languageCode = "en-us"
 PygmentsCodeFences = true
 PygmentsCodeFencesGuessSyntax = true
+title = "Skyler Lawrence"
+baseURL = "https://sjmlawrencegames.com"
 PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Chicago, IL"
-email = "skylerjmlawrence@gmail.com"
-favicon = "/favicon.ico"
-firstName = "Skyler"
 lastName = "Lawrence"
-phone = "1-708-921-5008"
-profileImage = "img/TechChat.png"
-showQr = false
 showContact = false
-showBoards  = false
+showBoards = false
+phone = "1-708-921-5008"
+sections = ["publications", "creations", "contributions", "experience", "skills", "education", "blog"]
+profileImage = "img/moonbearportraitcommission3.png"
+favicon = "/favicon.ico"
+address = "Chicago, IL"
 showCertifications = false
+showProjects = false
 showSocializations = true
-sections = [
-  "publications", 
-  "creations", 
-  "contributions", 
-  "experience",
-  "skills",
-  "education",
-  "blog"
-]
-vcardfields = [
-    "name",
-    "image",
-    "org",
-    "email",
-    "workemail",
-    "phone",
-    "url",
-    "title"
-]
+firstName = "Skyler"
+email = "skylerjmlawrence@gmail.com"
+showQr = false
+vcardfields = ["name", "image", "org", "email", "workemail", "phone", "url", "title"]
+
+[[params.handles]]
+name = "LinkedIn"
+link = "https://www.linkedin.com/in/skyler-lawrence-art/"
+
+[[params.handles]]
+name = "GitHub"
+link = "https://github.com/SJMLawrenceart"
 
 [params.google]
 
 [params.google.analytics]
 trackerID = "XX-123446-01"
 
-[[params.handles]]
-    name = "LinkedIn"
-    link = "https://www.linkedin.com/in/edwardwebb/"
-
-[[params.handles]]
-    name = "GitHub"
-    link = "https://github.com/eddiewebb/"
-
-[[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/edwardawebb"
-    icon = "keybase"
-    
-[[params.handles]]
-    name = "Bluesky"
-    link = "https://bsky.app/profile/webbinaro.dev"
-    icon = "bluesky"
-
-[[params.handles]]
-    link = "https://stackoverflow.com/users/82880/eddie"
-    name = "Stack Overflow"
-    icon = "stack-overflow"
-
-
+[params.customSections]
 
 [params.customSections.ham]
-    name = "SOME LINK"
-    url  = "https://example.com"
-
-
+name = "SOME LINK"
+url = "https://example.com"
 
 [outputs]
 home = ["HTML", "JSON"]
@@ -82,14 +49,15 @@ home = ["HTML", "JSON"]
 [taxonomies]
 tag = "tags"
 
-
 [mediaTypes]
-  [mediaTypes."text/vcard"]
-    suffixes = ["vcf"]
+
+[mediaTypes."text/vcard"]
+suffixes = ["vcf"]
 
 [outputFormats]
-  [outputFormats.VCard]
-    mediaType = "text/vcard"
-    baseName = "contact"
-    isPlainText = true
-    notAlternative = true
+
+[outputFormats.VCard]
+mediaType = "text/vcard"
+baseName = "contact"
+isPlainText = true
+notAlternative = true

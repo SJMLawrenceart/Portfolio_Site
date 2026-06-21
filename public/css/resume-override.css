@@ -1,0 +1,98 @@
+/* Color Palette Overrides for Moon Bear Theme */
+
+/* -------------------------------------------------------------
+   EDIT THESE COLORS TO CUSTOMIZE YOUR SITE SCHEME:
+   ------------------------------------------------------------- */
+:root {
+  --primary-accent: #864496;
+  /* Vibrant Purple - used for links, highlights, tags, and last name */
+  --primary-hover: #5c246b;
+  /* Darker Purple - used for link/button hover states */
+  --sidebar-bg: #311b36;
+  /* Cosmic Midnight Purple - sidebar background */
+  --page-bg: #f5f0f6;
+  /* Soft Cream Lavender - page background (less harsh than pure white) */
+  --text-color: #343a40;
+  /* Dark Charcoal - page body text color */
+}
+
+body {
+  background-color: var(--page-bg) !important;
+  color: var(--text-color) !important;
+}
+
+/* Sidebar Background and Mobile Header Background */
+.bg-primary,
+#sideNav {
+  background-color: var(--sidebar-bg) !important;
+}
+
+/* Last Name & Primary Accent Text */
+.text-primary {
+  color: var(--primary-accent) !important;
+}
+
+/* General Links */
+a {
+  color: var(--primary-accent);
+  transition: color 0.2s ease-in-out;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: var(--primary-hover);
+  /* Slightly darker cyan for hover/focus states */
+  text-decoration: none;
+}
+
+/* Sidebar navigation links */
+#sideNav .navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link:hover,
+#sideNav .navbar-nav .nav-item .nav-link:focus,
+#sideNav .navbar-nav .nav-item .nav-link.active {
+  color: var(--primary-accent) !important;
+}
+
+/* Social icons styling */
+.list-social-icons a:hover {
+  color: var(--primary-accent) !important;
+}
+
+/* Tech tag elements styling */
+.list-icons .list-inline-item i:hover {
+  color: var(--primary-accent) !important;
+}
+
+ul.tags li a.tag {
+  border: 1px solid var(--primary-accent);
+  color: var(--primary-accent);
+  transition: all 0.2s ease-in-out;
+}
+
+ul.tags li a.tag:hover {
+  background-color: var(--primary-accent);
+  color: var(--sidebar-bg) !important;
+  text-decoration: none;
+}
+
+/* Left border highlights on list summaries */
+.resume-date .text-primary {
+  color: var(--primary-accent) !important;
+}
+
+/* Custom button states */
+.btn-primary {
+  background-color: var(--primary-accent);
+  border-color: var(--primary-accent);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--primary-hover) !important;
+  border-color: var(--primary-hover) !important;
+}
