@@ -1,20 +1,20 @@
 [
     {
-        "role":"Boss man",
-        "company":"Current Company LTD",
-        "summary":"Led in development of fast paced software teams.\n- list\n- of\n- things",
-        "range":"February 2016 - Present"
+        "role": "Help Desk Technician",
+        "company": "Mechdyne Corporation",
+        "summary": "Delivered technical support and maintained detailed documentation for enterprise clients.\n- Managed high-volume support queues, ensuring meticulous documentation and accurate data entry within various ticketing systems for each distinct client.\n- Delivered technical support for enterprise clients across highly regulated sectors, including healthcare, legal, and finance (e.g., Vail Health, Crowell & Moring, Navitus).\n- Routinely updated and maintained knowledge bases, ensuring all client information was organized and easily retrievable.",
+        "range": "August 2024 - November 2025"
     },
     {
-        "role":"Developer",
-        "company":"Current Company LTD",
-        "summary":"Expedited the synergies of collaborative agile tooling.",
-        "range":"March 2014 - February 2016"
+        "role": "Lab Specialist",
+        "company": "Full Sail University",
+        "summary": "Mentored students with technical guidance and constructive feedback to foster a collaborative learning environment.\n- Engaged with students in after-lecture labs, providing technical support and answering questions to enhance their learning.\n- Critiqued students' work to foster a collaborative and growth-oriented environment.\n- Supplied valuable resources, offering guidance on relevant tools and materials.",
+        "range": "December 2022 - March 2024"
     },
     {
-        "role":"Developer",
-        "company":"Previous Company Inc.",
-        "summary":"Implemented continuous devops pipelines automationing",
-        "range":"February 2013 - March 2014"
+        "role": "Lead Artist",
+        "company": "CelleC Games",
+        "summary": "Collaborated across disciplines to manage art tasks and translate artistic visions into visual mediums.\n- Worked alongside writers and producers to create unique designs to translate artistic vision into a visual medium.\n- Managed priority and assignment of art tasks.\n- Collaborated with artists to achieve appropriate visual style.",
+        "range": "April 2022 - November 2022"
     }
 ]
